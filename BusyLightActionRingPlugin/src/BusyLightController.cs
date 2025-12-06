@@ -5,13 +5,15 @@ namespace Loupedeck.BusyLightActionRingPlugin
     using Loupedeck;   // For PluginLog
 
     /// <summary>
-    /// Wrapper around the Busylight SDK.
-    /// This is your original working controller, with basic error handling added.
+    /// Wrapper around the Busylight SDK with basic error handling.
     /// </summary>
     public class BusyLightController : IDisposable
     {
-        private SDK _sdk;
-        private bool _isAvailable;
+        // SDK instance is readonly: it is only assigned in the constructor.
+        private readonly SDK _sdk;
+
+        // Simple "am I usable?" flag, as a readonly auto property.
+        private Boolean IsAvailable { get; }
 
         public BusyLightController()
         {
@@ -21,14 +23,14 @@ namespace Loupedeck.BusyLightActionRingPlugin
                 this._sdk = new SDK();
                 this._sdk.CheckUSB();
 
-                this._isAvailable = true;
+                this.IsAvailable = true;
             }
             catch (Exception ex)
             {
                 // If anything goes wrong during SDK init, mark as unavailable
                 // so calls into the controller become safe no-ops instead of throwing.
                 this._sdk = null;
-                this._isAvailable = false;
+                this.IsAvailable = false;
 
                 // Log the failure so it shows up in the plugin log file.
                 PluginLog.Error($"BusyLightController initialization failed: {ex.Message}");
@@ -38,8 +40,8 @@ namespace Loupedeck.BusyLightActionRingPlugin
         /// <summary>
         /// Returns true if the SDK is initialised and the controller can talk to the device.
         /// </summary>
-        private bool IsReady =>
-            this._isAvailable && (this._sdk is not null);
+        private Boolean IsReady =>
+            this.IsAvailable && (this._sdk is not null);
 
         /// <summary>
         /// Set the Busylight to solid red.
@@ -146,7 +148,7 @@ namespace Loupedeck.BusyLightActionRingPlugin
         }
 
         /// <summary>
-        /// Turn the Busylight to Flash Red & Green.
+        /// Turn the Busylight to Flash Red &amp; Green.
         /// </summary>
         public void SetFlashRedGreen()
         {
@@ -159,7 +161,7 @@ namespace Loupedeck.BusyLightActionRingPlugin
         }
 
         /// <summary>
-        /// Turn the Busylight to Green & play Alert.
+        /// Turn the Busylight to Green &amp; play Alert.
         /// </summary>
         public void SetGreenPlayAlert()
         {
