@@ -49,10 +49,10 @@ namespace Loupedeck.BusyLightActionRingPlugin
             this._sdk.Light(0, 100, 100);
         
         /// <summary>
-        /// Turn the Busylight to solid teal.
+        /// Turn the Busylight to solid orange.
         /// </summary>
-        public void SetTeal() =>
-            this._sdk.Light(0, 31, 30);
+        public void SetOrange() =>
+            this._sdk.Light(100, 0, 65);
 
         /// <summary>
         /// Turn the Busylight to solid magenta.
