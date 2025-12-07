@@ -40,10 +40,10 @@ namespace Loupedeck.BusyLightActionRingPlugin
         }
     }
 
-    public class BusyLightTealCommand : PluginDynamicCommand
+    public class BusyLightMagentaCommand : PluginDynamicCommand
     {
         // Initializes the command class.
-        public BusyLightTealCommand()
+        public BusyLightMagentaCommand()
             : base(displayName: "Headphones", description: "Set BusyLight to solid magenta", groupName: "BusyLight")
         {
         }
@@ -58,10 +58,10 @@ namespace Loupedeck.BusyLightActionRingPlugin
         }
     }
 
-    public class BusyLightMagentaCommand : PluginDynamicCommand
+    public class BusyLightBlueCommand : PluginDynamicCommand
     {
         // Initializes the command class.
-        public BusyLightMagentaCommand()
+        public BusyLightBlueCommand()
             : base(displayName: "Deep Focus", description: "Set BusyLight to solid blue", groupName: "BusyLight")
         {
         }

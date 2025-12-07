@@ -1,0 +1,34 @@
+{
+    "backgroundColor": 4284900966,
+    "items": [
+        {
+            "image": "PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEzLjUgNkM5LjM1Nzg2IDYgNiA5LjM1Nzg2IDYgMTMuNUM2IDE3LjY0MjEgOS4zNTc4NiAyMSAxMy41IDIxQzE0LjA1MjMgMjEgMTQuNSAyMS40NDc3IDE0LjUgMjJDMTQuNSAyMi41NTIzIDE0LjA1MjMgMjMgMTMuNSAyM0M4LjI1MzI5IDIzIDQgMTguNzQ2NyA0IDEzLjVDNCA4LjI1MzI5IDguMjUzMjkgNCAxMy41IDRDMTguNzQ2NyA0IDIzIDguMjUzMjkgMjMgMTMuNUMyMyAxNC4wNTIzIDIyLjU1MjMgMTQuNSAyMiAxNC41QzIxLjQ0NzcgMTQuNSAyMSAxNC4wNTIzIDIxIDEzLjVDMjEgOS4zNTc4NiAxNy42NDIxIDYgMTMuNSA2WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xOCAyMC41QzE4IDE5LjY3MTYgMTguNjcxNiAxOSAxOS41IDE5SDI2LjVDMjcuMzI4NCAxOSAyOCAxOS42NzE2IDI4IDIwLjVWMjQuNUMyOCAyNS4zMjg0IDI3LjMyODQgMjYgMjYuNSAyNkgyMi4zMDI4TDIwLjMzMjEgMjcuMzEzOEMxOS4zMzUyIDI3Ljk3ODQgMTggMjcuMjYzOCAxOCAyNi4wNjU3VjIwLjVaTTIwIDIxVjI1LjEzMTVMMjEuMzE5MyAyNC4yNTE5QzIxLjU2NTcgMjQuMDg3NyAyMS44NTUyIDI0IDIyLjE1MTQgMjRIMjZWMjFIMjBaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTAuNzUgMTIuNUMxMS40NDA0IDEyLjUgMTIgMTEuOTQwNCAxMiAxMS4yNUMxMiAxMC41NTk2IDExLjQ0MDQgMTAgMTAuNzUgMTBDMTAuMDU5NiAxMCA5LjUgMTAuNTU5NiA5LjUgMTEuMjVDOS41IDExLjk0MDQgMTAuMDU5NiAxMi41IDEwLjc1IDEyLjVaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTcuNSAxMS4yNUMxNy41IDExLjk0MDQgMTYuOTQwNCAxMi41IDE2LjI1IDEyLjVDMTUuNTU5NiAxMi41IDE1IDExLjk0MDQgMTUgMTEuMjVDMTUgMTAuNTU5NiAxNS41NTk2IDEwIDE2LjI1IDEwQzE2Ljk0MDQgMTAgMTcuNSAxMC41NTk2IDE3LjUgMTEuMjVaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTAuMjg1MSAxNS4zODA2QzkuOTQzMDYgMTQuOTQ3IDkuMzE0MjYgMTQuODcyOCA4Ljg4MDY1IDE1LjIxNDlDOC40NDcwNCAxNS41NTY5IDguMzcyODMgMTYuMTg1NyA4LjcxNDg5IDE2LjYxOTRDOS41NDk5NSAxNy42Nzc5IDExLjA4ODEgMTkgMTMuNSAxOUMxNS45MTE5IDE5IDE3LjQ1MDEgMTcuNjc3OSAxOC4yODUxIDE2LjYxOTRDMTguNjI3MiAxNi4xODU3IDE4LjU1MyAxNS41NTY5IDE4LjExOTQgMTUuMjE0OUMxNy42ODU3IDE0Ljg3MjggMTcuMDU2OSAxNC45NDcgMTYuNzE0OSAxNS4zODA2QzE2LjEwNTcgMTYuMTUyOSAxNS4wODg1IDE3IDEzLjUgMTdDMTEuOTExNSAxNyAxMC44OTQzIDE2LjE1MjkgMTAuMjg1MSAxNS4zODA2WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==",
+            "imageFileName": "ChatEmotes-Only.svg",
+            "imageColor": 4281648985,
+            "imageRotation": "None",
+            "isVisible": true,
+            "itemType": "Image",
+            "area": {
+                "x": 18,
+                "y": 0,
+                "width": 65,
+                "height": 65
+            }
+        },
+        {
+            "text": "Avalible",
+            "originalText": null,
+            "textColor": 4281648985,
+            "fontSize": 5,
+            "fontName": "Brown Logitech Pan Light",
+            "isVisible": true,
+            "itemType": "Text",
+            "area": {
+                "x": 0,
+                "y": 75,
+                "width": 100,
+                "height": 16
+            }
+        }
+    ]
+}
