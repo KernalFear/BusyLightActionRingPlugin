@@ -9,7 +9,7 @@ type: plugin4
 name: BusyLightActionRing
 
 # Plugin name that is shown to the user.
-displayName: BusyLightActionRing
+displayName: Busy Light
 
 # Short description of the plugin.
 description: Add a short description of the plugin here.
