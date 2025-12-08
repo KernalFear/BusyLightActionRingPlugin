@@ -12,19 +12,19 @@ name: BusyLightActionRing
 displayName: Busy Light
 
 # Short description of the plugin.
-description: Add a short description of the plugin here.
+description: Control your BusyLight status from the Logitech Actions Wheel and Loupedeck devices.
 
 # Name of the plugin library file.
 pluginFileName: BusyLightActionRingPlugin.dll
 
 # Plugin version.
-version: 1.0
+version: 1.0.0
 
 # Author of the plugin. The author can be a company or an individual developer.
-author: 
+author: Kernal Fear "https://github.com/KernalFear"
 
 # Copyright information.
-copyright: Copyright © 2025 . All rights reserved.
+copyright: Copyright © 2025 Kernal Fear
 
 
 # ==================================================================================================
